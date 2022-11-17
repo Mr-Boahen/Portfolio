@@ -10,7 +10,7 @@ function ContactMe({}:Props) {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 mx-auto text-2xl '>contact</h3>
       <div className='flex flex-col space-y-10'>
         <h4 className='text-4xl font-semibold text-cente0r mt-52'>
-            I have got just What you need, {' '}
+            I have got just What you need, 
             <span className='decoration-[#f7ab0a]/50 underline'>Let's Talk</span>
         </h4>
 
