@@ -11,7 +11,7 @@ function ContactMe({}:Props) {
       <div className='flex flex-col space-y-10'>
         <h4 className='text-4xl font-semibold text-cente0r mt-52'>
             I have got just What you need, 
-            <span className='decoration-[#f7ab0a]/50 underline'>Let's Talk</span>
+            <span className='decoration-[#f7ab0a]/50 underline'>Lets Talk</span>
         </h4>
 
         <div className='space-y-10 flex flex-col items-center '>
