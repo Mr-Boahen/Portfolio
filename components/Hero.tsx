@@ -11,7 +11,7 @@ type Props={};
 
 function Hero({}:Props) {
     const [text,count]=useTypewriter({
-        words:['Hi','My name is Emmanuel','<Code_Blooded/>'],
+        words:['"Hello World!"','"Mr_Boahen Here"','<Code_Blooded/>'],
 
         loop:true,
         delaySpeed:2000,

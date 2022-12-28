@@ -1,9 +1,31 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Link from 'next/link';
 
 type Props={};
 function Projects({}:Props) {
-    const projects=[1,2,3,4,5]
+    // const projects=[1,2,3,4,5]
+    const projects=[{
+        img:"https://nbcpalmsprings.com/wp-content/uploads/sites/8/2022/07/Yy247gYvzaMZXprhZHXy4E.jpg?w=1120",
+        title:"Netfilx Clone",
+        desc:"A replica of the Netflix site built with React, Firebase, Redux, and the Moviedb API.",
+        link:"https://netflix-clone-2b996.firebaseapp.com/"
+
+    },{
+        img:"https://www.svgrepo.com/download/110195/linkedin.svg",
+        title:"LinkedIn Clone",
+        desc:"Another clone with full on authentication and high responsivity. Built with React, Firebase, and Redux,.",
+        link:"https://linked-in-clone-amber.vercel.app/"
+
+    },{
+        img:"https://seeklogo.com/images/A/airbnb-logo-7F4086530F-seeklogo.com.png",
+        title:"Airbnb Clone",
+        desc:" Built with React,tailwind,Nextjs and more.",
+        link:"https://airbnb-clone-topaz-sigma.vercel.app/"
+
+    },
+    
+        ]
   return (
     <motion.div 
     initial={{
@@ -26,16 +48,18 @@ function Projects({}:Props) {
              viewport={{once:true}}
         
             className='h-52'
-            src="https://nbcpalmsprings.com/wp-content/uploads/sites/8/2022/07/Yy247gYvzaMZXprhZHXy4E.jpg?w=1120" alt="" />
+            src={project.img} alt="" />
                 <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                     <h4 className='text-4xl font-semibold text-center'>
                         <span className='underline decoration-[#f7ab0a]/50'>Case Study {i+1} of {projects.length}</span>
                         {' '}
-                        UPS clone
+                        {project.title}
                     </h4>
                     <p className='text-lg text-center md:text-left'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium nulla enim officia atque cupiditate tempora eos, quod sapiente explicabo dolore ut nihil aperiam fugit. Ipsa porro ut vero illum delectus?
+                        {project.desc}
                     </p>
+                 
+                    <a className='text-[#f7ab0a]'>{project.link}</a>
                 </div>
             </div>
         ))}

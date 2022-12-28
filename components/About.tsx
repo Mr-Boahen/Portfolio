@@ -33,7 +33,7 @@ function About({}:Props) {
               </motion.img >
               <div className='space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#f7ab0a]'>little</span>  background</h4>
-                <p className='text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum incidunt iste doloremque neque? Dolore, voluptate. Laudantium nostrum, provident eligendi, repellendus ipsum aspernatur ratione, in corrupti labore soluta sit quia consequatur.</p>
+                <p className='text-base'>As a curious and technologically-inclined young man, I have always been captivated by the inner workings of complex systems and circuits. This fascination led me to study electrical engineering and sparked my recent interest in software engineering. I am now eagerly pursuing my newfound passion alongside my studies.</p>
               </div>
     </motion.div>
   )
